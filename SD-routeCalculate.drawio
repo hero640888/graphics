@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-24T12:48:58.337Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="C_TJKOOKYjuIgG5xJPFs" version="12.8.8" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-03-24T12:50:08.742Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="fxHJxmzTnrXs_N6OBA1r" version="12.8.8" type="github" pages="6">
   <diagram name="算路流程" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="946" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -754,7 +754,7 @@
         <mxCell id="ExIpC1eMXikzLTUXx5i4-62" value="发送是否支持乘车卡的请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ExIpC1eMXikzLTUXx5i4-1">
           <mxGeometry x="180" y="42" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ExIpC1eMXikzLTUXx5i4-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ExIpC1eMXikzLTUXx5i4-1" source="ExIpC1eMXikzLTUXx5i4-63" target="ExIpC1eMXikzLTUXx5i4-66">
+        <mxCell id="ExIpC1eMXikzLTUXx5i4-67" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ExIpC1eMXikzLTUXx5i4-1" source="ExIpC1eMXikzLTUXx5i4-63" target="ExIpC1eMXikzLTUXx5i4-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ExIpC1eMXikzLTUXx5i4-68" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ExIpC1eMXikzLTUXx5i4-1" source="ExIpC1eMXikzLTUXx5i4-63" target="ExIpC1eMXikzLTUXx5i4-62">
@@ -774,11 +774,22 @@
         <mxCell id="ExIpC1eMXikzLTUXx5i4-63" value="网络请求成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ExIpC1eMXikzLTUXx5i4-1">
           <mxGeometry x="200" y="132" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="ExIpC1eMXikzLTUXx5i4-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ExIpC1eMXikzLTUXx5i4-1" source="ExIpC1eMXikzLTUXx5i4-66" target="ExIpC1eMXikzLTUXx5i4-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ExIpC1eMXikzLTUXx5i4-75" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="ExIpC1eMXikzLTUXx5i4-74">
+          <mxGeometry x="-0.4667" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ExIpC1eMXikzLTUXx5i4-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ExIpC1eMXikzLTUXx5i4-1" source="ExIpC1eMXikzLTUXx5i4-66" target="ExIpC1eMXikzLTUXx5i4-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ExIpC1eMXikzLTUXx5i4-66" value="是否支持&lt;br&gt;乘车卡" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ExIpC1eMXikzLTUXx5i4-1">
           <mxGeometry x="200" y="242" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ExIpC1eMXikzLTUXx5i4-69" value="显示乘车码入口，更新内存和缓存数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ExIpC1eMXikzLTUXx5i4-1">
-          <mxGeometry x="200" y="352" width="90" height="50" as="geometry" />
+          <mxGeometry x="195" y="352" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ExIpC1eMXikzLTUXx5i4-70" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="ExIpC1eMXikzLTUXx5i4-1">
           <mxGeometry x="314" y="-50" width="30" height="20" as="geometry" />
@@ -788,6 +799,9 @@
             <mxPoint x="280" y="-40" as="sourcePoint" />
             <mxPoint x="380" y="-40" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ExIpC1eMXikzLTUXx5i4-76" value="隐藏乘车码入口，更新内存和缓存数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ExIpC1eMXikzLTUXx5i4-1">
+          <mxGeometry x="359" y="257" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
